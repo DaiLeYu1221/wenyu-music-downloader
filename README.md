@@ -96,7 +96,6 @@ python main.py
 ## 项目结构
 
 ```
-├── API/                  # API 文档
 ├── config.json           # API 密钥配置（需自行填写）
 ├── config.py             # 平台端点与音质策略配置
 ├── api_client.py         # 统一音乐平台 API 客户端
@@ -128,10 +127,15 @@ python main.py
 
 ## 注意事项
 
-- `config.json` 已加入 `.gitignore`，不会被提交到仓库
 - 下载的音乐仅供个人学习与研究使用
 - 部分歌曲可能因版权原因无法下载
+- 请尊重音乐平台版权，本工具仅供个人学习使用
+- 下载歌曲造成的版权问题本工具作者概不负责
 
 ## License
 
-MIT
+Apache 2.0
+
+## 致谢
+
+- [妖狐数据开放API接口](https://api.yaohud.cn) - 提供音乐、歌词搜索api
